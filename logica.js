@@ -11,3 +11,15 @@ function iniciarJogo() {
   telaPergunta.style.display = "block"
   
 }
+
+alternativa = document.querySelector(".alternativa")
+alternativa.addEventListener("click", respostaCorreta)
+
+
+function respostaCorreta() {
+  telaPergunta = document.querySelector(".tela-pergunta")
+  telaPergunta.style.display = "none"
+  
+  telaCorreto = document.querySelector(".tela-acertou")
+  telaCorreto.style.display = "block"
+}
