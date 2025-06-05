@@ -61,8 +61,7 @@ body {
 }
 
 .alternativa:active {
-  background: black;
-  color: black;
+  background: lightskyblue;
 }
 
 .tela-acertou {
