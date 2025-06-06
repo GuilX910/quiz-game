@@ -82,6 +82,7 @@ botao3.addEventListener("click", () => {
 })
 
 
+
 function iniciarJogo() {
   
   telaInicial.style.display = "none"
