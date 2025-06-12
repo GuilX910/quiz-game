@@ -1,4 +1,3 @@
-
 listaPerguntas = [
   {
     pergunta: "Qual o maior ser vivo?",
@@ -81,8 +80,6 @@ botao3.addEventListener("click", () => {
   }
 })
 
-
-
 function iniciarJogo() {
   
   telaInicial.style.display = "none"
@@ -122,5 +119,3 @@ function mostrarErrou() {
   telaPergunta.style.display = "none"
   telaErrou.style.display = "block"
 }
-
-
