@@ -87,3 +87,38 @@ body {
   width: 80%;
   margin-top: 150px;
 }
+
+.tela-final {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background: gold;
+}
+
+.final {
+  width: 80%;
+  margin-top: 60px;
+}
+
+.texto-final {
+  margin-top: 20px;
+  font-size: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: black;
+  font-weight: bold;
+}
+
+.voltar {
+  font-size: 30px;
+  margin-top: 250px;
+  padding: 10px 55px 10px 55px;
+  background: royalblue;
+  border: 2px solid black;
+  color: white;
+  font-weight: bold;
+}
+
+.voltar:active {
+  background: lightskyblue;
+}
