@@ -27,8 +27,10 @@ listaPerguntas = [
       "1966",
       "1962"
     ],
+
     correta: 3
   },
+
 ]
 
 objPergunta = null
